@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Oct 18 19:35:17 2022
+# Process ID: 6288
+# Current directory: A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12836 A:\STUDY_MAIN\5TH SEMESTER\Inform_technologies\Owb_processor_p2\Own_proc_p2.xpr
+# Log file: A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/vivado.log
+# Journal file: A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.xpr}
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+file mkdir A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sim_1/new
+file mkdir A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sim_1/new
+file mkdir A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sim_1/new
+file mkdir A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sim_1/new
+file mkdir A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sim_1/new
+file mkdir {A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sim_1/new}
+close [ open {A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sim_1/new/testbench.v} w ]
+add_files -fileset sim_1 {{A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sim_1/new/testbench.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
