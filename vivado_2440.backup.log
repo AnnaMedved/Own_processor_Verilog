@@ -1,0 +1,167 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Oct 19 11:13:53 2022
+# Process ID: 2440
+# Current directory: A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3844 A:\STUDY_MAIN\5TH SEMESTER\Inform_technologies\Owb_processor_p2\Own_proc_p2.xpr
+# Log file: A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/vivado.log
+# Journal file: A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'A:/Programs/Vivado_2018/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse {{A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/define_file.v}}
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: alu_riscv
+WARNING: [Synth 8-2490] overwriting previous definition of module define_file [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/define_file.v:20]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1039.910 ; gain = 111.129
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'alu_riscv' [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:4]
+INFO: [Synth 8-155] case statement is not full and has no default [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'alu_riscv' (1#1) [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1071.004 ; gain = 142.223
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1071.004 ; gain = 142.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1071.004 ; gain = 142.223
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1402.008 ; gain = 473.227
+7 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1402.008 ; gain = 473.227
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+WARNING: [Synth 8-2490] overwriting previous definition of module define_file [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/define_file.v:20]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1446.203 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'alu_riscv' [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:4]
+INFO: [Synth 8-155] case statement is not full and has no default [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'alu_riscv' (1#1) [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1467.797 ; gain = 21.594
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1467.797 ; gain = 21.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1467.797 ; gain = 21.594
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1467.797 ; gain = 21.594
+refresh_design
+WARNING: [Synth 8-2490] overwriting previous definition of module define_file [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/define_file.v:20]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1467.797 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'alu_riscv' [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:4]
+ERROR: [Synth 8-660] unable to resolve 'fulladder32' [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:16]
+INFO: [Synth 8-155] case statement is not full and has no default [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:13]
+ERROR: [Synth 8-6156] failed synthesizing module 'alu_riscv' [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1488.484 ; gain = 20.688
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.
+refresh_design
+WARNING: [Synth 8-2490] overwriting previous definition of module define_file [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/define_file.v:20]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1488.484 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'alu_riscv' [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:4]
+ERROR: [Synth 8-660] unable to resolve 'fulladder32' [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:16]
+INFO: [Synth 8-155] case statement is not full and has no default [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:13]
+ERROR: [Synth 8-6156] failed synthesizing module 'alu_riscv' [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1493.855 ; gain = 5.371
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.
+add_files -norecurse {{A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Proj/RALU.v}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Proj/RALU.v}}] -no_script -reset -force -quiet
+remove_files  {{A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Proj/RALU.v}}
+refresh_design
+WARNING: [Synth 8-2490] overwriting previous definition of module define_file [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/define_file.v:20]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1493.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'alu_riscv' [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:4]
+ERROR: [Synth 8-660] unable to resolve 'fulladder32' [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:16]
+INFO: [Synth 8-155] case statement is not full and has no default [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:13]
+ERROR: [Synth 8-6156] failed synthesizing module 'alu_riscv' [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1499.281 ; gain = 5.426
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.
+refresh_design
+WARNING: [Synth 8-2490] overwriting previous definition of module define_file [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/define_file.v:20]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1499.695 ; gain = 0.008
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'alu_riscv' [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:4]
+ERROR: [Synth 8-36] 'fulladder32' is not declared [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:16]
+INFO: [Synth 8-155] case statement is not full and has no default [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:13]
+ERROR: [Synth 8-6156] failed synthesizing module 'alu_riscv' [A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1501.973 ; gain = 2.285
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 19 21:25:19 2022...

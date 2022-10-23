@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sources_1/new/alu_riscv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module define_file
+INFO: [VRFC 10-311] analyzing module alu_riscv
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/STUDY_MAIN/5TH SEMESTER/Inform_technologies/Owb_processor_p2/Own_proc_p2.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
